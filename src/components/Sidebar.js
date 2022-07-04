@@ -1,7 +1,4 @@
-import "../styles.css";
 import { Resizable } from "re-resizable";
-import Button from "@mui/material/Button";
-import Stack from "@mui/material/Stack";
 
 export default function Sidebar() {
   return (
@@ -12,10 +9,7 @@ export default function Sidebar() {
         height: 250,
       }}
     >
-      <Stack spacing={2} direction="row">
-        <Button variant="contained">Add</Button>
-        <Button variant="outlined">Update</Button>
-      </Stack>
+      Drag the borders to resize the component
     </Resizable>
   );
 }

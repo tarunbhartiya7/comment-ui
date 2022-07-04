@@ -8,8 +8,8 @@
   flex-wrap: wrap;
 }
 
-.textField {
-  margin: 3rem !important;
+.spacing {
+  margin: 0 2rem !important;
 }
 
 .component {

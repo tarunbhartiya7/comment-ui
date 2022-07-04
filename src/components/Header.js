@@ -1,4 +1,3 @@
-import "../styles.css";
 import { Resizable } from "re-resizable";
 import Typography from "@mui/material/Typography";
 
