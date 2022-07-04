@@ -3,6 +3,6 @@ import App from "./App";
 
 test("renders text sidebar", () => {
   render(<App />);
-  const text = screen.queryByText("sidebar");
+  const text = screen.queryByText("React Re-Sizeable Demo");
   expect(text).toBeTruthy();
 });
